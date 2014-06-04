@@ -1,0 +1,14 @@
+# judge a string is part of a larger string
+# step 1: prompt user enter a string str1
+# step 2: prompt user enter another string str2
+# step 3: print out str1 is part of a str2
+
+str1 = raw_input("Enter a string str1:")
+str2 = raw_input("Enter a string str2:")
+
+result = str2.find(str1)
+
+if result=-1:
+    print "str1 not is part of str2 !"
+else:
+    print "str1 is part of str2 !"
